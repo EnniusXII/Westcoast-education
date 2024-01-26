@@ -1,0 +1,33 @@
+header {
+    position: sticky;
+    z-index: 1;
+    background: rgb(3, 100, 120);
+    height: 50px;
+
+    nav {
+        border: 1px solid red;
+        height: 100%;
+        
+        ul {
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            font-family: 'Rubik';
+
+            li {
+
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover, &:active {
+                        color: #ef6c00;
+                    }
+                }
+            }
+        }
+    }
+}
