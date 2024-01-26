@@ -1,0 +1,24 @@
+#kurser-galleri {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-around;
+    gap: 1rem;
+
+    div {
+        height: 300px;
+        min-width: 300px;
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 768px) {
+    #kurser-galleri {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+  @media (min-width: 1200px) {
+    #kurser-galleri {
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
