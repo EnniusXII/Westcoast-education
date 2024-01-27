@@ -1,3 +1,14 @@
+main {
+  background-color: #f7f7f7;
+
+  h1 {
+    font-family: 'Rubik';
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
 #kurser-galleri {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -7,9 +18,10 @@
     div {
         height: 300px;
         min-width: 300px;
-        background-color: aquamarine;
+        background-color: white;
     }
 }
+
 
 @media (min-width: 768px) {
     #kurser-galleri {

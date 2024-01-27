@@ -2,8 +2,8 @@
     "kurser": [
       {
         "kursnummer": "1",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Blockchainutvecklare",
+        "längd": "2 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -22,8 +22,8 @@
       },
       {
         "kursnummer": "3",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Frond End Developer",
+        "längd": "2 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -32,8 +32,8 @@
       },
       {
         "kursnummer": "4",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Fullstack Developer",
+        "längd": "2 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -42,8 +42,8 @@
       },
       {
         "kursnummer": "5",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Online video Producer",
+        "längd": "1,5 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -52,8 +52,8 @@
       },
       {
         "kursnummer": "6",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Professional Video Editor",
+        "längd": "1,5 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -62,8 +62,8 @@
       },
       {
         "kursnummer": "7",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Marketing Automation",
+        "längd": "2 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -72,8 +72,8 @@
       },
       {
         "kursnummer": "8",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Marknadskoordinator",
+        "längd": "1,5 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -82,7 +82,7 @@
       },
       {
         "kursnummer": "9",
-        "kurs": "Javascript",
+        "kurs": "Digital Analytics",
         "längd": "90 dagar",
         "typ": "Distans",
         "datum": "15 Feb",
@@ -92,7 +92,7 @@
       },
       {
         "kursnummer": "10",
-        "kurs": "Javascript",
+        "kurs": "HTML/CSS",
         "längd": "90 dagar",
         "typ": "Distans",
         "datum": "15 Feb",
