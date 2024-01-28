@@ -28,7 +28,7 @@ const loadDataToList = (kurs) => {
   kursTyp.textContent = `Längd: ${kurs.längd}`;
   kursLängd.textContent = `Typ: ${kurs.typ}`;
   kursDatum.textContent = `Startdatum: ${kurs.datum}`;
-  kursBeskrivning.textContent = kurs.description;
+  kursBeskrivning.textContent = kurs.beskrivning;
   // console.log(entries);
 };
 
