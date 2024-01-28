@@ -9,14 +9,30 @@ async function initPage() {
     kurser.forEach((kurs) => {
         galleri.appendChild(createCard(kurs));
     });
-}
+
+    const kursdetaljer = document.querySelectorAll('.kurserid');
+    addKursClickHandler(kursdetaljer);
+};
+
+const addKursClickHandler = (divs) => {
+    divs.forEach((div) => {
+      const kursId = div.getAttribute('id');
+  
+      div.addEventListener('click', () => {
+        console.log(location);
+        location.href = `/pages/kurs-detaljer.html?id=${kursId}`;
+      });
+    });
+  };
 
 
 const loadKurser = async () => {
-    const url = 'http://localhost:3000/kurser';
+    const url = 'http://localhost:4000/kurser';
     const http = new HttpClient(url);
     const kurser = await http.get();
     return kurser;
 }
 
 document.addEventListener('DOMContentLoaded', initPage);
+
+  

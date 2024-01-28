@@ -1,0 +1,11 @@
+main {
+    background-color: #f7f7f7;
+    height: 100vh;
+
+    h1 {
+        font-family: 'Rubik';
+        font-size: 2rem;
+        text-align: center;
+        padding: 10rem;
+      }
+}
