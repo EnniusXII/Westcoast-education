@@ -4,8 +4,6 @@ const createCard = (kurser) => {
     div.appendChild(createKursInfo(kurser));
     div.appendChild(createKursNamn(kurser));
     div.classList.add('kurser-id');
-    // div.appendChild(createImage(vehicle.imageUrl, vehicle.id));
-    // div.appendChild(createVehicleInfo(vehicle));
   
     return div;
   };

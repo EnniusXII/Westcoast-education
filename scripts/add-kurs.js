@@ -8,6 +8,8 @@ const addKurs = async(e) => {
 
     const kurs = new FormData(form);
     const obj = convertFormDataToJson(kurs);
+
+    delete obj.id;
     sparaKurs(obj);
 };
 

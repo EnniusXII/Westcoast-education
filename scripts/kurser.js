@@ -19,7 +19,6 @@ const addKursClickHandler = (divs) => {
       const kursId = div.getAttribute('id');
   
       div.addEventListener('click', () => {
-        console.log(location);
         location.href = `/pages/kurs-detaljer.html?id=${kursId}`;
       });
     });
