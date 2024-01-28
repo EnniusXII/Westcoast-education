@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/content/css/reset.css">
     <link rel="stylesheet" href="/content/css/navigation.css">
     <link rel="stylesheet" href="/content/css/admin/index.css">
+    <script src="/scripts/add-kurs.js" defer type="module"></script>
 </head>
 <body>
     
@@ -33,17 +34,17 @@
         <h1>Lägg till ny kurs</h1>
 
         <section>
-            <form action="">
-                <label for="">Kursnamn</label>
-                <input type="text" placeholder="Ange kursnamn">
-                <label for="">Typ</label>
-                <input type="text" placeholder="Ange kurstyp">
-                <label for="">Längd</label>
-                <input type="text" placeholder="Ange kurslängd">
-                <label for="">Datum</label>
-                <input type="text" placeholder="Ange kursstart">
-                <label for="">Pris</label>
-                <input type="text" placeholder="Ange kurspris">
+            <form id="add-kurs">
+                <label for="kurs">Kursnamn</label>
+                <input type="text" name="kurs" placeholder="Ange kursnamn">
+                <label for="längd">Längd</label>
+                <input type="text" name="längd" placeholder="Ange kurslängd">
+                <label for="typ">Typ</label>
+                <input type="text" name="typ" placeholder="Ange kurstyp">
+                <label for="datum">Datum</label>
+                <input type="text" name="datum" placeholder="Ange kursstart">
+                <label for="beskrivning">Pris</label>
+                <input type="text" name="beskrivning" placeholder="Ange kurspris">
 
                 <button type="submit" class="btn">Spara</button>
             </form>
