@@ -1,11 +1,47 @@
 main {
   background-color: #f7f7f7;
+  height: 100vh;
 
   h1 {
     font-family: 'Rubik';
     font-size: 2rem;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+  }
+
+  .kurser-id {
+    position: relative;
+    
+    p {
+      font-family: 'Rubik';
+      position: absolute;
+      bottom: 1.5rem;
+      left: 1.5rem;
+    }
+
+    h2 {
+      font-family: 'Rubik';
+      font-size: 1.8rem;
+      padding: 1.5rem;
+    }
+  }
+  
+  .kurs-detaljer {
+    margin: auto;
+    width: 50%;
+    
+    ul {
+      font-size: 1.2rem;
+      
+      li {
+        margin-top: 1rem;
+      }
+
+      li:nth-child(1) {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
   }
 }
 

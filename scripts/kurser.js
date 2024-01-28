@@ -10,7 +10,7 @@ async function initPage() {
         galleri.appendChild(createCard(kurs));
     });
 
-    const kursdetaljer = document.querySelectorAll('.kurserid');
+    const kursdetaljer = document.querySelectorAll('.kurser-id');
     addKursClickHandler(kursdetaljer);
 };
 

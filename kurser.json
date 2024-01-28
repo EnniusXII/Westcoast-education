@@ -12,8 +12,8 @@
       },
       {
         "kursnummer": "2",
-        "kurs": "Javascript",
-        "längd": "90 dagar",
+        "kurs": "Podcastproduktion",
+        "längd": "1,5 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -83,7 +83,7 @@
       {
         "kursnummer": "9",
         "kurs": "Digital Analytics",
-        "längd": "90 dagar",
+        "längd": "1,5 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",
@@ -92,8 +92,8 @@
       },
       {
         "kursnummer": "10",
-        "kurs": "HTML/CSS",
-        "längd": "90 dagar",
+        "kurs": "Digital Marketing Manager",
+        "längd": "1,5 år",
         "typ": "Distans",
         "datum": "15 Feb",
         "imageUrl": "car2.jpg",

@@ -3,7 +3,7 @@ const createCard = (kurser) => {
     div.setAttribute('id', kurser.id)
     div.appendChild(createKursInfo(kurser));
     div.appendChild(createKursNamn(kurser));
-    div.classList.add('kurserid');
+    div.classList.add('kurser-id');
     // div.appendChild(createImage(vehicle.imageUrl, vehicle.id));
     // div.appendChild(createVehicleInfo(vehicle));
   
@@ -13,7 +13,7 @@ const createCard = (kurser) => {
 const createKursInfo = (kurser) => {
   const paragraph = document.createElement('p');
   paragraph.appendChild(
-    document.createTextNode(`${kurser.typ} ${kurser.längd}`)
+    document.createTextNode(`${kurser.typ} - ${kurser.längd}`)
   );
 
   return paragraph;

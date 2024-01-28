@@ -1,6 +1,7 @@
 import HttpClient from './http.js';
 
 const kursNamn = document.querySelector('#kurs-namn')
+const kursNummer = document.querySelector('#kurs-nummer')
 const kursTyp = document.querySelector('#kurs-typ')
 const kursLängd = document.querySelector('#kurs-längd')
 const kursDatum = document.querySelector('#kurs-datum')
@@ -23,6 +24,7 @@ async function visaKursDetaljer(id) {
 const loadDataToList = (kurs) => {
   // const entries = new URLSearchParams(kurs).entries();
   kursNamn.textContent = kurs.kurs;
+  kursNummer.textContent = `Kursnummer: ${kurs.kursnummer}`;
   kursTyp.textContent = `Längd: ${kurs.längd}`;
   kursLängd.textContent = `Typ: ${kurs.typ}`;
   kursDatum.textContent = `Startdatum: ${kurs.datum}`;
