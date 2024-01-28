@@ -12,14 +12,14 @@ function initPage() {
   const kursId = location.search.split('=')[1];
   visaKursDetaljer(kursId);
   bokaKurs();
-}
+};
 
 const visaKursDetaljer = async(id) => {
-  const url = 'http://localhost:4000/kurser/' + id;
+  const url = 'http://localhost:3000/kurser/' + id;
   const http = new HttpClient(url);
   const kurs = await http.get();
   loadDataToList(kurs);
-}
+};
 
 const loadDataToList = (kurs) => {
   kursNamn.textContent = kurs.kurs;

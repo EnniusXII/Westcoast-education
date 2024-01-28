@@ -25,11 +25,11 @@ const addKursClickHandler = (divs) => {
         location.href = `/pages/kurs-detaljer.html?id=${kursId}`;
       });
     });
-  };
+};
 
 
 const loadKurser = async () => {
-    const url = 'http://localhost:4000/kurser';
+    const url = 'http://localhost:3000/kurser';
     const http = new HttpClient(url);
     const kurser = await http.get();
     return kurser;
@@ -42,20 +42,6 @@ const popularKurs = () => {
 
   console.log(popular);
 };
-
-// const popularDisplay = () => {
-//   const divs = document.querySelectorAll('.kurser-id');
-
-//   divs.forEach((div) => {
-//     if (div.rating >= '3') {
-//       div.style.display = 'block';
-//     } else {
-//       div.style.display = 'none';
-//     }
-//   });
-
-//   console.log(divs);
-// };
 
 const popularDisplay = async () => {
   const kurser = await loadKurser();

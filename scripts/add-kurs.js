@@ -14,7 +14,7 @@ const addKurs = async(e) => {
 };
 
 const sparaKurs = async(kurs) => {
-    const url = 'http://localhost:4000/kurser';
+    const url = 'http://localhost:3000/kurser';
     const http = new HttpClient(url);
     await http.add(kurs);
     location.href = './add-kurs.html';

@@ -24,6 +24,6 @@ const createKursNamn = (kurser) => {
   );
 
   return header;
-}
+};
 
 export {createCard};
