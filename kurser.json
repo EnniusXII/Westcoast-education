@@ -8,9 +8,9 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "blockchainImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "5"      
+        "rating": "5"
       },
       {
         "id": 2,
@@ -20,7 +20,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "podcastProduktionImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "3"      
       },
@@ -32,7 +32,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "frontEndImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "3"      
       },
@@ -44,7 +44,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "fullStackImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "4"      
       },
@@ -56,7 +56,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "onlineVideoProducerImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "4"      
       },
@@ -68,7 +68,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "professionalVideoEditorImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "4"      
       },
@@ -80,7 +80,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "marketingAutomationImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "3"      
       },
@@ -92,7 +92,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "marknadsKoordinatorImage.jpeg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "3"      
       },
@@ -104,7 +104,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "digitalAnalyticsImage.jpeg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "4"      
       },
@@ -116,7 +116,7 @@
         "typ": "Distans",
         "datum": "15 Feb",
         "pris": "2000kr",
-        "imageUrl": "car2.jpg",
+        "imageUrl": "digitalMarketingImage.jpg",
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "3"
       }

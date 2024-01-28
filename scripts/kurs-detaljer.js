@@ -6,6 +6,7 @@ const kursTyp = document.querySelector('#kurs-typ')
 const kursLängd = document.querySelector('#kurs-längd')
 const kursDatum = document.querySelector('#kurs-datum')
 const kursBeskrivning = document.querySelector('#kurs-beskrivning')
+const kursSection = document.querySelector('#kurs-image')
 
 
 function initPage() {
@@ -28,6 +29,7 @@ const loadDataToList = (kurs) => {
   kursLängd.textContent = `Typ: ${kurs.typ}`;
   kursDatum.textContent = `Startdatum: ${kurs.datum}`;
   kursBeskrivning.textContent = kurs.beskrivning;
+  kursSection.style.backgroundImage = `url('../content/images/${kurs.imageUrl}')`;
 };
 
 const bokaKurs = () => {

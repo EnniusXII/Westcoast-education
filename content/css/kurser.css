@@ -1,6 +1,17 @@
 main {
   background-color: #f7f7f7;
   height: 100vh;
+  font-family: 'Rubik';
+
+  #kurs-image {
+    height: 100%;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the fourth value (alpha) to control the transparency */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
 
   h1 {
     font-family: 'Rubik';
