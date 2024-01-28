@@ -42,6 +42,6 @@ const loginAlert = () => {
   setTimeout(() => {
     location.href = '/pages/login.html';
   }, 3000);
-}
+};
 
 document.addEventListener('DOMContentLoaded', initPage);

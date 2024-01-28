@@ -9,6 +9,21 @@ main {
     padding: 2rem;
   }
 
+  #sort-kurs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Rubik';
+    width: 50%;
+    margin: auto;
+
+    li {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
   .kurser-id {
     position: relative;
     
