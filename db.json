@@ -120,5 +120,14 @@
         "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
         "rating": "3"
       }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "kundnamn": "",
+        "epostadress": "",
+        "mobilnummer": "",
+        "faktureringsadress": ""
+      }
     ]
 }

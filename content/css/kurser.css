@@ -6,7 +6,7 @@ main {
   #kurs-image {
     height: 100%;
     background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust the fourth value (alpha) to control the transparency */
+    background-color: rgba(0, 0, 0, 0.6);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,6 +37,9 @@ main {
 
   .kurser-id {
     position: relative;
+    :hover {
+      cursor: pointer;
+    }
     
     p {
       font-family: 'Rubik';
