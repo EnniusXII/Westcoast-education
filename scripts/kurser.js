@@ -1,5 +1,5 @@
 import { createCard } from './dom.js';
-import HttpClient from './http.js';
+import HttpClient from '../dist/http.js';
 
 const galleri = document.querySelector('#kurser-galleri');
 

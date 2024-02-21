@@ -1,4 +1,4 @@
-import HttpClient from './http.js';
+import HttpClient from '../dist/http.js';
 
 const kursNamn = document.querySelector('#kurs-namn')
 const kursNummer = document.querySelector('#kurs-nummer')

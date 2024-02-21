@@ -1,133 +1,133 @@
 {
-    "kurser": [
-      {
-        "id": 1,
-        "kursnummer": "1",
-        "kurs": "Blockchainutvecklare",
-        "längd": "2 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "blockchainImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "5"
-      },
-      {
-        "id": 2,
-        "kursnummer": "2",
-        "kurs": "Podcastproduktion",
-        "längd": "1,5 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "podcastProduktionImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "3"      
-      },
-      {
-        "id": 3,
-        "kursnummer": "3",
-        "kurs": "Frond End Developer",
-        "längd": "2 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "frontEndImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "3"      
-      },
-      {
-        "id": 4,
-        "kursnummer": "4",
-        "kurs": "Fullstack Developer",
-        "längd": "2 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "fullStackImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "4"      
-      },
-      {
-        "id": 5,
-        "kursnummer": "5",
-        "kurs": "Online video Producer",
-        "längd": "1,5 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "onlineVideoProducerImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "4"      
-      },
-      {
-        "id": 6,
-        "kursnummer": "6",
-        "kurs": "Professional Video Editor",
-        "längd": "1,5 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "professionalVideoEditorImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "4"      
-      },
-      {
-        "id": 7,
-        "kursnummer": "7",
-        "kurs": "Marketing Automation",
-        "längd": "2 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "marketingAutomationImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "3"      
-      },
-      {
-        "id": 8,
-        "kursnummer": "8",
-        "kurs": "Marknadskoordinator",
-        "längd": "1,5 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "marknadsKoordinatorImage.jpeg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "3"      
-      },
-      {
-        "id": 9,
-        "kursnummer": "9",
-        "kurs": "Digital Analytics",
-        "längd": "1,5 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "digitalAnalyticsImage.jpeg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "4"      
-      },
-      {
-        "id": 10,
-        "kursnummer": "10",
-        "kurs": "Digital Marketing Manager",
-        "längd": "1,5 år",
-        "typ": "Distans",
-        "datum": "15 Feb",
-        "pris": "2000kr",
-        "imageUrl": "digitalMarketingImage.jpg",
-        "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
-        "rating": "3"
-      }
-    ],
-    "users": [
-      {
-        "id": 1,
-        "kundnamn": "",
-        "epostadress": "admin",
-        "mobilnummer": "",
-        "faktureringsadress": ""
-      }
-    ]
+  "kurser": [
+    {
+      "id": 1,
+      "kursnummer": "1",
+      "kurs": "Blockchainutvecklare",
+      "längd": "2 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "blockchainImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "5"
+    },
+    {
+      "id": 2,
+      "kursnummer": "2",
+      "kurs": "Podcastproduktion",
+      "längd": "1,5 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "podcastProduktionImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "3"
+    },
+    {
+      "id": 3,
+      "kursnummer": "3",
+      "kurs": "Frond End Developer",
+      "längd": "2 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "frontEndImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "3"
+    },
+    {
+      "id": 4,
+      "kursnummer": "4",
+      "kurs": "Fullstack Developer",
+      "längd": "2 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "fullStackImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "4"
+    },
+    {
+      "id": 5,
+      "kursnummer": "5",
+      "kurs": "Online video Producer",
+      "längd": "1,5 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "onlineVideoProducerImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "4"
+    },
+    {
+      "id": 6,
+      "kursnummer": "6",
+      "kurs": "Professional Video Editor",
+      "längd": "1,5 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "professionalVideoEditorImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "4"
+    },
+    {
+      "id": 7,
+      "kursnummer": "7",
+      "kurs": "Marketing Automation",
+      "längd": "2 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "marketingAutomationImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "3"
+    },
+    {
+      "id": 8,
+      "kursnummer": "8",
+      "kurs": "Marknadskoordinator",
+      "längd": "1,5 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "marknadsKoordinatorImage.jpeg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "3"
+    },
+    {
+      "id": 9,
+      "kursnummer": "9",
+      "kurs": "Digital Analytics",
+      "längd": "1,5 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "digitalAnalyticsImage.jpeg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "4"
+    },
+    {
+      "id": 10,
+      "kursnummer": "10",
+      "kurs": "Digital Marketing Manager",
+      "längd": "1,5 år",
+      "typ": "Distans",
+      "datum": "15 Feb",
+      "pris": "2000kr",
+      "imageUrl": "digitalMarketingImage.jpg",
+      "beskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores temporibus esse, obcaecati animi laboriosam ipsum, facilis ad minus dolorum voluptatem nisi possimus eos eum, hic quaerat rem ipsam similique beatae quam laudantium nesciunt accusantium cum? Dolorem, unde eos sunt ex earum quibusdam inventore dolor mollitia saepe voluptatem perferendis voluptatum.",
+      "rating": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "kundnamn": "",
+      "epostadress": "admin",
+      "mobilnummer": "",
+      "faktureringsadress": ""
+    }
+  ]
 }

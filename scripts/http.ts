@@ -1,11 +1,11 @@
 export default class HttpClient {
-    #url = '';
+    #url: string = "";
   
-    constructor(url) {
+    constructor(url: string) {
       this.#url = url;
     }
   
-    async get() {
+    async get<T>(): Promise<T> {
 
       try {
         const response = await fetch(this.#url);
@@ -21,9 +21,9 @@ export default class HttpClient {
       }
     }
 
-    async add(data) {
+    async add<T>(data: T): Promise<T> {
         try {
-          console.log(data);
+          
           const response = await fetch(this.#url, {
             method: 'POST',
             headers: {
