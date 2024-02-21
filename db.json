@@ -125,7 +125,7 @@
       {
         "id": 1,
         "kundnamn": "",
-        "epostadress": "",
+        "epostadress": "admin",
         "mobilnummer": "",
         "faktureringsadress": ""
       }

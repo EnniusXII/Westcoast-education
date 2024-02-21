@@ -1,4 +1,4 @@
-const registerNewUserButton = document.querySelector("#register-button");
+const registerNewUserForm = document.querySelector("#register-user");
 const addName = document.querySelector("#namn");
 const addEmail = document.querySelector("#email");
 const addMobilNummer = document.querySelector("#mobilnummer");
@@ -42,4 +42,4 @@ const registerNewUserHandler = async(e) => {
     const registeredNewUser = await registerNewUser(user);
 }
 
-registerNewUserButton.addEventListener('click', registerNewUserHandler);
+registerNewUserForm.addEventListener('submit', registerNewUserHandler);

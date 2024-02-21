@@ -35,6 +35,13 @@ main {
     }
   }
 
+  #boknings-email {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    width: 80%;
+    padding: 0.4rem;
+  }
+
   .kurser-id {
     position: relative;
     :hover {
@@ -74,8 +81,8 @@ main {
 
     #boka-btn {
       display: block;
-      padding: 0.5rem;
-      margin-top: 2rem;
+      padding: 0.4rem;
+      margin-top: 1rem;
       width: 40%;
     }
   }

@@ -8,11 +8,14 @@ const kursDatum = document.querySelector('#kurs-datum')
 const kursBeskrivning = document.querySelector('#kurs-beskrivning')
 const kursSection = document.querySelector('#kurs-image')
 
+const bokaKursButton = document.querySelector('#boka-btn')
+const bokningsEmail = document.querySelector('#boknings-email')
+
 
 function initPage() {
   const kursId = location.search.split('=')[1];
   visaKursDetaljer(kursId);
-  bokaKurs();
+  bokningsEmail.value = "";
 };
 
 const visaKursDetaljer = async(id) => {
@@ -32,18 +35,40 @@ const loadDataToList = (kurs) => {
   kursSection.style.backgroundImage = `url('../content/images/${kurs.imageUrl}')`;
 };
 
-const bokaKurs = () => {
-  const btn = document.querySelector('#boka-btn');
+const bokaKurs = async() => {
+  const users = await getAllUsers();
+  const email = bokningsEmail.value;
 
-  btn.addEventListener('click', loginAlert)
-};
+  const emailFound = users.find((user) => user.epostadress.trim().toLowerCase() === email);
+  console.log(emailFound);
 
-const loginAlert = () => {
-  alert('Du måste logga in! Du länkas vidare om 3 sekunder');
+  if (emailFound) {
+    alert("Tack för din bokning!")
+  } else {
+    alert('Du måste registrera dig! Du länkas vidare om 3 sekunder');
 
-  setTimeout(() => {
+    setTimeout(() => {
     location.href = '/pages/login.html';
-  }, 3000);
+    }, 3000);
+  }  
 };
+
+const getAllUsers = async() => {
+
+  try {
+      const response = await fetch("http://localhost:3000/users");
+
+      if(response.ok){
+          return await response.json();
+          
+      }else{
+          console.log("Error: users not found");
+      }
+  } catch (error) {
+      console.log(error);
+  }
+};
+
 
 document.addEventListener('DOMContentLoaded', initPage);
+bokaKursButton.addEventListener('click', bokaKurs);
